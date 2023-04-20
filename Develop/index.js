@@ -63,8 +63,23 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-
-};
+    return inquirer.prompt(questions)
+    .then((answers) => {
+        const create = readMe.generateMarkdown(data)
+        fs.writeFile('README.md', create, function(err) {
+            if(err) {
+                console.log('Unable to save file', err);
+            } else {
+                console.log('File created');
+            }
+    })
+        console.log(answers)
+        return answers
+    })
+    .catch((error) => {
+        console.log('error')
+    })
+}
 
 // Function call to initialize app
 init();
