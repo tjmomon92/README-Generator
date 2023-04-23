@@ -1,17 +1,33 @@
 class readMe {
     // Function that returns a license badge based on which license is passed in
+    // static licenseBadge(license) {
+    //     const badges = {
+    //         apache: '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]',
+    //         boost: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]',
+    //         eclipse: '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)]', 
+    //         ibm: '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]',
+    //         isc: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]',
+    //         mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]',
+    //         mozilla: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]'
+    //     }
+    //     return badges[license]
+    // };
+
     static licenseBadge(license) {
-        const badges = {
-            apache: '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-            boost: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)',
-            eclipse: '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)', 
-            ibm: '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)',
-            isc: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
-            mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-            mozilla: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+        switch (license) {
+          case 'MIT':
+            return '![Mit](https://img.shields.io/badge/License-Mit-blue)';
+            break;
+          case 'GNU GPLv3':
+            return '![GNU](https://img.shields.io/badge/License-GNU-blue)';
+            break;
+          case 'Apache':
+            return '![Apache](https://img.shields.io/badge/License-Apache-blue)';
+            break;
+          default:
+            return ''
         }
-        return badges[license]
-    };
+      } 
 
     // Function that returns the license link
     static licenseLink(license) {
