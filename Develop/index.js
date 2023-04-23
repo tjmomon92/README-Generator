@@ -39,7 +39,7 @@ const questions = [
         type: 'list',
         name: 'License',
         message: 'Desired license?',
-        choices: ['Apache', 'Boost', 'Eclipse', 'IBM', 'ISC', 'MIT', 'Mozilla', 'GPL-v2', 'GPL-v3', 'GPL-LGPL'],
+        choices: ['Apache', 'Boost', 'Eclipse', 'IBM', 'ISC', 'MIT', 'Mozilla'],
         filter(val) {
             return val.toLowerCase();
         }
@@ -56,12 +56,7 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-
-// };
-
-// Function to initialize app
+// Function to initialize app and write README file
 function init() {
     return inquirer.prompt(questions)
     .then((answers) => {
