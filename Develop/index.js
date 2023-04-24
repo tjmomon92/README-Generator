@@ -59,21 +59,21 @@ const questions = [
 // Function to initialize app and write README file
 function init() {
     return inquirer.prompt(questions)
-    .then((answers) => {
-        const create = readMe.generateMarkdown(answers)
-        fs.writeFile('README.md', create, function(err) {
-            if(err) {
-                console.log('Unable to save file', err);
-            } else {
-                console.log('File created');
-            }
+        .then((answers) => {
+            const create = readMe.generateMarkdown(answers)
+            fs.writeFile('README.md', create, function (err) {
+                if (err) {
+                    console.log('Unable to save file', err);
+                } else {
+                    console.log('File created');
+                }
+            })
+            console.log(answers)
+            return answers
         })
-        console.log(answers)
-        return answers
-    })
-    .catch((error) => {
-        console.log('error')
-    })
+        .catch((error) => {
+            console.log('error')
+        })
 }
 
 // Function call to initialize app

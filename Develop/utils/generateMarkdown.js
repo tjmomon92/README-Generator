@@ -5,29 +5,13 @@ class readMe {
             apache: '![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)',
             boost: '![License: Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)',
             eclipse: '![License: Eclipse](https://img.shields.io/badge/License-EPL_1.0-red.svg)', 
-            ibm: '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]',
-            isc: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]',
-            mit: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]',
-            mozilla: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]'
+            ibm: '![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)',
+            isc: '![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)',
+            mit: '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)',
+            mozilla: '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)'
         }
         return badges[license]
     };
-
-    // static licenseBadge(license) {
-    //     switch (license) {
-    //       case 'MIT':
-    //         return '![Mit](https://img.shields.io/badge/License-Mit-blue)';
-    //         break;
-    //       case 'GNU GPLv3':
-    //         return '![GNU](https://img.shields.io/badge/License-GNU-blue)';
-    //         break;
-    //       case 'Apache':
-    //         return '![Apache](https://img.shields.io/badge/License-Apache-blue)';
-    //         break;
-    //       default:
-    //         return ''
-    //     }
-    //   } 
 
     // Function that returns the license link
     static licenseLink(license) {
@@ -85,7 +69,7 @@ ${answers.Contributing}
 ${answers.Test}
   
 ## Licensing
-${this.licenseSection(answers.license)}
+${this.licenseSection(answers.License)}
   
 ## Contact
 ${answers.GitHub}
