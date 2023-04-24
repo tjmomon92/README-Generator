@@ -45,13 +45,12 @@ ${this.licenseBadge(answers.License)}
     
 ## Table of Contents
 - [Project Description](#Description)
-- [Project Installation](#Install)
+- [Project Installation](#Installation)
 - [Project Usage](#Usage)
-- [Project Contribution](#Contributing)
-- [Project Testing](#Test)
-- [Project Licensing](#License)
-- [Project GitHub](#GitHub)
-- [Creator Email](#Email)
+- [Project Contribution](#Contribution)
+- [Project Testing](#Testing)
+- [Project Licensing](#Licensing)
+- [Project Contact](#Contact)
   
 ## Description
 ${answers.Description}
