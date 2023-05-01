@@ -19,13 +19,22 @@ An easy-to-use program to create quality README markdown files for any project
 This program requires the inquirer package, npm, and JavaScript
   
 ## Usage
-This program utilizes the required items to generate a series of questions through the terminal. The user can use these questions to generate a personalized README file.  
+This program utilizes the required items to generate a series of questions through the terminal. The user can use these questions to generate a personalized README file in their selected file structure.  
   
 ## Contribution
 Anyone can contribute by testing this program for their convenience!
   
 ## Testing
-This program is run completely in the Command Line. To begin, navigate to the desired folder and open an integrated terminal. Use command 'npm i' to install all required packages. Afterward, run 'npm start' and simply follow the prompts!
+This program is run completely in the Command Line! 
+<br/>To begin, navigate to the desired folder and open an integrated terminal. 
+<br/>Use command 'npm i' to install all required packages.
+![Screenshot-npmI](https://user-images.githubusercontent.com/118149929/235502047-7cbd8264-ed73-40f6-91ed-da18204e9a74.png)
+<br/>Afterward, run 'npm start' and simply follow the prompts!
+![Screenshot-npmStart](https://user-images.githubusercontent.com/118149929/235502424-65df3280-dffa-452d-a810-d181e1c70150.png)
+<br/>Once completed, your file will be created in your file structure and ready to edit and use!
+![Screenshot-npmFinish](https://user-images.githubusercontent.com/118149929/235502503-d49a2069-598a-4be6-8a5d-f3271db30652.png)
+<br/>Check out this video walkthrough for help!
+
   
 ## Licensing
 Licensed under [MIT](https://opensource.org/license/mit/)
