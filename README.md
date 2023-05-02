@@ -33,7 +33,7 @@ This program is run completely in the Command Line!
 ![Screenshot-npmStart](https://user-images.githubusercontent.com/118149929/235502424-65df3280-dffa-452d-a810-d181e1c70150.png)
 <br/>Once completed, your file will be created in your file structure and ready to edit and use!
 ![Screenshot-npmFinish](https://user-images.githubusercontent.com/118149929/235502503-d49a2069-598a-4be6-8a5d-f3271db30652.png)
-<br/>Check out this video walkthrough for help!
+</br><br/>Check out this [video walkthrough](https://drive.google.com/file/d/1Xf7ulLYcpU7NLJ431HCR7IlHZCNKeJkS/view) for help!
 
   
 ## Licensing
