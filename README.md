@@ -16,7 +16,7 @@
 An easy-to-use program to create quality README markdown files for any project
 
 ## Installation
-This program requires the inquirer package, npm, and JavaScript
+This program requires the inquirer package, npm, and JavaScript. Users will clone the public repo to run this program.
   
 ## Usage
 This program utilizes the required items to generate a series of questions through the terminal. The user can use these questions to generate a personalized README file in their selected file structure.  
